@@ -1,37 +1,60 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+The representation of real world scenario using Markov Decision Process by stating all the states,actions and environment with respective rewards.
 
 ## PROBLEM STATEMENT:
-
+To develop a game which will promote to other level,when the agent complete its task correctly.
 ### Problem Description
-Write your answer here
+If the agent unable to complete the given task,then there is no promotion to other level,when it reaches the final level,it will recieve a reward.
 
 ### State Space
-Write your answer here
-
+{L1,L2,L3}--->{0,1,2}
 ### Sample State
-Write your answer here
+L1--->{0}
 
 ### Action Space
-Write your answer here
+Moving Left(1)
+
+Stay in the same level(0)
 
 ### Sample Action
-Write your answer here
+Stay in the same level(0)
 
 ### Reward Function
-Write your answer here
++1(When it reaches the goal state or final level)
 
 ### Graphical Representation
-Write your answer here
+![WhatsApp Image 2024-03-01 at 11 27 42 PM](https://github.com/Sucharithachowdary/mdp-representation/assets/94166007/b90ec637-e4ad-4599-8e85-249980dad55d)
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
+~~~
+NAME : Sucharitha.K
+REG NO : 212221240021
+
+P = {
+    0:{
+        0: [(0.44,0,0,True),(0.13,1,0,False)],
+        1: [(0.13,1,0,False),(0.44,0,0,True)]
+    },
+    1:{
+        0: [(0.44,1,0,False),(0.13,2,1,True)],
+        1: [(0.13,2,1,True),(0.44,1,0,False)]
+    },
+    2:{
+        0: [(0.44,2,1,True),(0.13,1,1,False)],
+        1: [(0.13,1,1,False),(0.44,2,1,True)]
+    }
+}
+
+
+~~~
 
 ## OUTPUT:
-Write your Python output here
+![image](https://github.com/Sucharithachowdary/mdp-representation/assets/94166007/72a3bdea-0677-4e9e-81fa-f8a8b9737d62)
+
+
 
 ## RESULT:
-Write your output here
-
+Therefore an MDP representation has been created for a real world scenario with all the states, actions and rewards.

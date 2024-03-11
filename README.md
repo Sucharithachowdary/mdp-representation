@@ -52,7 +52,8 @@ P = {
 ~~~
 
 ## OUTPUT:
-![image](https://github.com/Sucharithachowdary/mdp-representation/assets/94166007/72a3bdea-0677-4e9e-81fa-f8a8b9737d62)
+![Screenshot (29)](https://github.com/Sucharithachowdary/mdp-representation/assets/94166007/8cfafaa5-b383-4e0c-bab2-f00a71194759)
+
 
 
 
